@@ -9,7 +9,7 @@ TEST := $(BUILD)/tsn_tests
 GCL_TEST := $(BUILD)/test_gcl
 
 CORE_SRC := $(wildcard src/*.c)
-CORE_OBJ := $(patsubst src/%.c,$(BUILD)/%.o,$(CORE_SRC)
+CORE_OBJ := $(patsubst src/%.c,$(BUILD)/%.o,$(CORE_SRC))
 
 .PHONY: all demo test gcl-test clean
 
