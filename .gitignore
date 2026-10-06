@@ -1,0 +1,7 @@
+build/
+*.o
+*.gcda
+*.gcno
+*.gcov
+tsn_demo
+tsn_tests
